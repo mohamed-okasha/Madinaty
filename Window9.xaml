@@ -1,0 +1,46 @@
+﻿<Window x:Class="Window9"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window9" Height="750" Width="730">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="660*" />
+            <RowDefinition Height="52*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="405*" />
+            <ColumnDefinition Width="121*" />
+            <ColumnDefinition Width="182*" />
+        </Grid.ColumnDefinitions>
+        <Image Name="Image1" Stretch="Fill" SnapsToDevicePixels="True" Source="/Madinaty1;component/p1.jpg" Grid.ColumnSpan="3" Grid.RowSpan="2" />
+        <Label Name="Label1" Cursor="Hand" Grid.Column="1" Grid.Row="1"></Label>
+        <Grid Margin="38,106,34,93" Name="plan_1" Panel.ZIndex="1" Visibility="Visible" Grid.ColumnSpan="3">
+            <Image Name="Image2" Source="/Madinaty1;component/__1.jpg" Stretch="Fill" />
+            <Label Height="28" Margin="160,0,132,140" Name="Label2" VerticalAlignment="Bottom" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" Cursor="Hand" Opacity="0.9">الساحلي</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="0,6,292,0" Name="Label4" Opacity="0.9" VerticalAlignment="Top" VerticalContentAlignment="Center">ازدو  الشماليه</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="0,26,0,0" Name="Label5" Opacity="0.9" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="130">الدافنية</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="50,60,242,0" Name="Label7" Opacity="0.9" VerticalAlignment="Top" VerticalContentAlignment="Center">الدافنية</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="251,0,41,60" Name="Label8" Opacity="0.9" VerticalAlignment="Bottom" VerticalContentAlignment="Center">الدافنية</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="6,0,0,94" Name="Label9" Opacity="0.9" VerticalAlignment="Bottom" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="279">الدافنية</Label>
+            <Label Cursor="Hand" Foreground="White" HorizontalContentAlignment="Center" Margin="0,159,6,174" Name="Label10" Opacity="0.9" VerticalContentAlignment="Center" HorizontalAlignment="Right" Width="279">نعيمه</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="10,143,282,0" Name="Label11" Opacity="0.9" VerticalAlignment="Top" VerticalContentAlignment="Center">الحميديه</Label>
+            <Label Cursor="Hand" Foreground="White" Height="28" HorizontalContentAlignment="Center" Margin="275,94,17,0" Name="Label12" Opacity="0.9" VerticalAlignment="Top" VerticalContentAlignment="Center">الدافنية</Label>
+        </Grid>
+        <Grid Margin="21,92,12,78" Name="G__SHOW" Panel.ZIndex="0" Visibility="Hidden" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="246*" />
+                <ColumnDefinition Width="181*" />
+                <ColumnDefinition Width="248*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="207*" />
+                <RowDefinition Height="183*" />
+            </Grid.RowDefinitions>
+            <Image Margin="0,1,0,0" Name="Image3" Stretch="Fill" Grid.Column="1" />
+            <TextBox Background="Transparent" BorderThickness="0" FlowDirection="RightToLeft" FontFamily="GE SS" FontSize="14" Foreground="Cornsilk" Name="TextBox1" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Grid.ColumnSpan="3" Grid.Row="1" Panel.ZIndex="-1" />
+            <Label Grid.Column="2" Height="34" Margin="6,0,22,13" Name="Label6" VerticalAlignment="Bottom" Foreground="White" Panel.ZIndex="-1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></Label>
+            <Label Foreground="White" Height="34" Margin="27,0,18,16" Name="Label13" VerticalAlignment="Bottom" Panel.ZIndex="1" Cursor="Hand" Background="Sienna" FontSize="15" FlowDirection="RightToLeft" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" ClipToBounds="True" Visibility="Hidden" Opacity="0.8">الرجوع للخريطة</Label>
+            <Label Grid.ColumnSpan="3" Grid.Row="1" Margin="0,0,-1,-2" Name="Label14" Background="Black" Panel.ZIndex="-1" Opacity="0.4">Label</Label>
+        </Grid>
+    </Grid>
+</Window>

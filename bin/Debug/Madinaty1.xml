@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Madinaty1
+</name>
+</assembly>
+<members>
+<member name="M:Madinaty.Window1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window1">
+	<summary>
+Window1
+</summary>
+</member><member name="M:Madinaty.Window2.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window2">
+	<summary>
+Window2
+</summary>
+</member><member name="M:Madinaty.Window3.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window3">
+	<summary>
+Window3
+</summary>
+</member><member name="M:Madinaty.Window4.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window4">
+	<summary>
+Window4
+</summary>
+</member><member name="M:Madinaty.Window5.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window5">
+	<summary>
+Window5
+</summary>
+</member><member name="M:Madinaty.Window6.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window6">
+	<summary>
+Window6
+</summary>
+</member><member name="M:Madinaty.Window8.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window8">
+	<summary>
+Window8
+</summary>
+</member><member name="M:Madinaty.Window9.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Madinaty.Window9">
+	<summary>
+Window9
+</summary>
+</member><member name="M:Madinaty.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Madinaty.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:Madinaty.Application">
+	<summary>
+Application
+</summary>
+</member><member name="P:Madinaty.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Madinaty.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Madinaty.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Madinaty.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:Madinaty.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Madinaty.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:Madinaty.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:Madinaty.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:Madinaty.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

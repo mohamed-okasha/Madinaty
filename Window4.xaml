@@ -1,0 +1,18 @@
+﻿<Window x:Class="Window4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window4" Height="532" Width="494" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20.006*" />
+            <ColumnDefinition Width="91.456*" />
+            <ColumnDefinition Width="360.538*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="444*" />
+            <RowDefinition Height="50*" />
+        </Grid.RowDefinitions>
+        <Image Name="Image1" Stretch="Fill" Source="/Madinaty1;component/About P.jpg" Grid.RowSpan="2" Grid.ColumnSpan="3" />
+        <Label Height="52" HorizontalAlignment="Left" Margin="20,0,0,-1" Name="Label1" VerticalAlignment="Bottom" Width="92" Grid.RowSpan="2" Grid.ColumnSpan="3" Cursor="Hand"></Label>
+    </Grid>
+</Window>

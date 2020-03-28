@@ -1,0 +1,28 @@
+﻿<Window x:Class="Window3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window3" Height="497" Width="591" AllowsTransparency="True" WindowStartupLocation="CenterScreen" WindowState="Normal" WindowStyle="None" Background="SlateGray">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="276*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="134*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="92*" />
+            <ColumnDefinition Width="335*" />
+            <ColumnDefinition Width="142*" />
+        </Grid.ColumnDefinitions>
+        <Image Name="Image1" Source="/Madinaty1;component/1.jpg" Stretch="Fill" Grid.ColumnSpan="3" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <Label Name="Label1" Cursor="Hand" Background="Cyan" Grid.Column="1" Opacity="1" Grid.Row="1" HorizontalAlignment="Right" Width="334.619" Panel.ZIndex="0"></Label>
+        <Button FontFamily="GE SS" Foreground="Azure"  FontSize="20" Name="Button3" Grid.Row="1" Grid.Column="1" BorderThickness="0" Cursor="Hand" BorderBrush="Transparent">
+            <Button.Background>
+
+                <ImageBrush ImageSource="/Madinaty1;component/bt1.png"  Opacity="1"></ImageBrush>
+
+
+            </Button.Background> إبــدأ
+
+        </Button>
+    </Grid>
+</Window>

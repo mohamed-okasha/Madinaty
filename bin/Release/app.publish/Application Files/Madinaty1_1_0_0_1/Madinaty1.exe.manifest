@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Madinaty1.exe" version="1.0.0.1" publicKeyToken="125301817d74a912" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Madinaty1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Madinaty1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Madinaty1.exe" size="1542656">
+      <assemblyIdentity name="Madinaty1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DYzJDUEGZMBXcKQnIwhmZCkvWTw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="notify.wav" size="228396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SoSL1ZwfisQ2bRH0n8MtO7jZ7M4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=User-VAIO\User" issuerKeyHash="0d62a857fc2fc9f0ae186a7182b45f4e5ea64e90" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dcln/6xHv1hSv9RTKPX+sBQdWNI=</DigestValue></Reference></SignedInfo><SignatureValue>oBT7iI3QqeW6M2mzACztLwPOIlphWLqMWsjy8zChsghaSeue2+YQEGBiTtESuMGsc7/Y0RAwc/JYM/vDmGfieseTYHlTdY31pQoqmolN2Kxm7oEFI/Q8BzUDLDcvs9M9+Xc9eWWPQZX2I1U6K2sAJbacF9CAU/hPNXgsXb8EHeY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uUsG1pxBC6HsPoqLMquF43xqWm50YviUr4JPQwial2AuwKEAU7GKvMiqa0+qpI0f7LguZ64KPYQWS7Lwf66xvGWNDEpVFMFeKxS7f9q1g5+DmU8TDrvOjr7pK47Wo522NwhzinJPulXh0OiMZnBeUmTNd8T6sOTGxL+JeuPhTPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2581d14b0fef52853d4bf5258bf47acff67c975" Description="" Url=""><as:assemblyIdentity name="Madinaty1.exe" version="1.0.0.1" publicKeyToken="125301817d74a912" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=User-VAIO\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gOhx6o24bG6XuoUlSBBpW5m25AQ=</DigestValue></Reference></SignedInfo><SignatureValue>gfkYSH+kLjuHA1ez1buRmG7dxHRS3n54/qFlIJFkTtY+0MaaZzaf8YsDsaJKFEUsY8Lhq/xDTQni73CEIOWXyqmFWTEtrC8HNefqz0zZ0wqu7aBhQRhVVzgdMyyyrKWmeT6tO9y8Wp7fsx3KQq8SYpP+4sgjyTuzUk24yP4IjMg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uUsG1pxBC6HsPoqLMquF43xqWm50YviUr4JPQwial2AuwKEAU7GKvMiqa0+qpI0f7LguZ64KPYQWS7Lwf66xvGWNDEpVFMFeKxS7f9q1g5+DmU8TDrvOjr7pK47Wo522NwhzinJPulXh0OiMZnBeUmTNd8T6sOTGxL+JeuPhTPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQezJksvRfDptI4TRuiJWWpTANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAVQBzAGUAcgAtAFYAQQBJAE8AXABVAHMAZQByMB4XDTEyMTAyOTIwNTY0NVoXDTEzMTAzMDAyNTY0NVowJzElMCMGA1UEAx4cAFUAcwBlAHIALQBWAEEASQBPAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuUsG1pxBC6HsPoqLMquF43xqWm50YviUr4JPQwial2AuwKEAU7GKvMiqa0+qpI0f7LguZ64KPYQWS7Lwf66xvGWNDEpVFMFeKxS7f9q1g5+DmU8TDrvOjr7pK47Wo522NwhzinJPulXh0OiMZnBeUmTNd8T6sOTGxL+JeuPhTPMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCEEcaEUjpu/a8GY4ePISUKDrw3gFKhia6Roa9svyIvNPurTDgc/LefKGRFmCbh3XugW/WDA9QtxGIX2dyp98HvQLxZ8PPGUn0TQ4yicmPeS/0Lo0JKeKDNZwr/mN9ixzlm+iFZAWyWvR28l9h+Y2DSqHZ2Pl7Kgopa1Xf/HJPE8A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
