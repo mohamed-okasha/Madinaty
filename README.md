@@ -1,4 +1,4 @@
-<h1 align="center">تطبيقي مدينية لأرشفة المعالم والشخصيات التاريخية بمدينة زليتن</h1>
+<h1 align="center">تطبيق مدينية لأرشفة المعالم والشخصيات التاريخية بمدينة زليتن</h1>
 <p align="center"><a href="#readme"><img src="https://github.com/mohamed-okasha/Madinaty/blob/master/ide_preview1.jpg" alt="Preview" /></a></p>
 <p align="center"><a href="#readme"><img src="https://github.com/mohamed-okasha/Madinaty/blob/master/ide_preview2.jpg" alt="Preview" /></a></p>
 <p align="center"><a href="#readme"><img src="https://github.com/mohamed-okasha/Madinaty/blob/master/ide_preview3.jpg" alt="Preview" /></a></p>
